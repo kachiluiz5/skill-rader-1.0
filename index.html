@@ -15,6 +15,17 @@
     <!--build:css-->
     <link rel="stylesheet" href="assets/css/main.css">
     <!-- endbuild -->
+
+    <style>
+        @media (max-width: 767px) {
+    .col-md-10.col-lg-6 {
+        text-align: center;
+    }
+    .app-download-btn{
+        padding: 8px 20px !important; 
+    }
+}
+    </style>
 </head>
 
 <body>
@@ -33,7 +44,7 @@
         <nav class="navbar navbar-expand-lg fixed-top bg-transparent">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
-                    <img src="assets/img/logo-light.png" alt="logo" class="img-fluid" style="width: 60px; height: 60px;"/>
+                    <img src="assets/img/logo-light.png" alt="logo" class="img-fluid" style="width: 50px; height: 50px;"/>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="ti-menu"></span>
@@ -65,7 +76,7 @@
                             <div class="action-btns mt-4">
                                 <ul class="list-inline">
                                     <li class="list-inline-item">
-                                        <a href="#" class="d-flex align-items-center app-download-btn btn btn-white btn-rounded">
+                                        <a href="#" class="d-flex align-items-center app-download-btn btn btn-white btn-rounded" >
                                             <span class="fab fa-apple icon-size-sm mr-3 color-primary"></span>
                                             <div class="download-text text-left">
                                                 <small>Download form</small>
@@ -73,8 +84,10 @@
                                             </div>
                                         </a>
                                     </li>
+
+                                    
                                     <li class="list-inline-item">
-                                        <a href="#" class="d-flex align-items-center app-download-btn btn btn-white btn-rounded">
+                                        <a href="#" class="d-flex align-items-center app-download-btn btn btn-white btn-rounded" >
                                             <span class="fab fa-google-play icon-size-sm mr-3 color-primary"></span>
                                             <div class="download-text text-left">
                                                 <small>Download form</small>
